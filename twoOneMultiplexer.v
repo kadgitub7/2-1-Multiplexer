@@ -8,6 +8,6 @@ module twoOneMultiplexer(
     output Y
     );
     
-    assign Y = E&(~S&I0 + S&I1);
+    assign Y = E&(~S&I0 | S&I1);
     
 endmodule
