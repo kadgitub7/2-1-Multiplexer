@@ -183,9 +183,7 @@ It contains:
 
 A schematic image for the implementation can be referenced as:
 
-![2:1 Multiplexer Circuit](imageAssets/twoOneMultiplexer_circuit.png)
-
-*(If your file name differs, update the image path accordingly.)*
+![2:1 Multiplexer Circuit](imageAssets/2-1MUXCircuit.png)
 
 ---
 
@@ -212,7 +210,7 @@ The waveform confirms that the simulated output matches the truth table and Bool
 
 Example waveform illustration:
 
-![2:1 Multiplexer Waveform](imageAssets/twoOneMultiplexer_waveform.png)
+![2:1 Multiplexer Waveform](imageAssets/2-1MUXWaveform.png)
 
 ---
 
@@ -311,9 +309,6 @@ If you want to map the MUX to FPGA hardware:
 - `twoOneMultiplexer_tb.v` — Testbench that:
   - Drives different combinations of `E`, `S`, `I0`, and `I1`.
   - Observes `Y` in the waveform and/or simulation log to verify correct behavior.
-- *(Optional)* `imageAssets/…` — Supporting diagrams such as:
-  - `twoOneMultiplexer_circuit.png` — schematic of the 2:1 MUX.
-  - `twoOneMultiplexer_waveform.png` — simulation waveform screenshot.
 
 ---
 
