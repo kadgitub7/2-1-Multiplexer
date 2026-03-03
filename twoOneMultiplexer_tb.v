@@ -29,8 +29,8 @@ module twoOneMultiplexer_tb();
     initial begin
         #10 S = 1'b1;
         E = 1'b0;
-        I0 = 1'b0;
-        I1 = 1'b1;
+        I0 = 1'b1;
+        I1 = 2'b2;
         #10 $display("S = %b, E = %b, Y = %b, I0 = %b, I1 = %b", S,E,Y,I0,I1);
         
         #10 S = 1'b0;
